@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/solid"
+        android:text="Insert Data"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="@+id/edi3"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/edi3"
+        app:layout_constraintTop_toBottomOf="@+id/edi3" />
+
+    <EditText
+        android:id="@+id/edi1"
+        android:layout_width="277dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edi2"
+        android:layout_width="277dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="RollNO"
+        android:inputType="textCapCharacters"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/edi1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edi1"
+        app:layout_constraintTop_toBottomOf="@+id/edi1" />
+
+    <EditText
+        android:id="@+id/edi3"
+        android:layout_width="277dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="marks"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/edi2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edi2"
+        app:layout_constraintTop_toBottomOf="@+id/edi2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="SQLITE TASK"
+        android:textColor="#3F8764"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- <EditText
+         android:id="@+id/editid"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="40dp"
+         android:layout_marginTop="92dp"
+         android:ems="10"
+         android:hint="Id"
+         android:inputType="textPersonName"
+         android:textSize="25sp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+ -->
+</androidx.constraintlayout.widget.ConstraintLayout>
